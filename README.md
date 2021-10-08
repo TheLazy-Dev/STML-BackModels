@@ -1,6 +1,5 @@
 # STML-BackModels
 
+STML or Sketch to Markup Language is our approch to lower the workforce of engineers working on frontend. The task of converting the wireframe to HTML code is tedious and time-consuming. At present, the boilerplate code is mostly written manually. Currently, the users have to write the HTML code for structuring the elements on the webpage, which leads to a lot of redundant work and users investing their precious time into it. Generally, where the structure of web pages is the same, users would tend to maintain a copy of the pre-existing boilerplate code for reusability. The idea is to process input, recognize each element in the wireframe using the Open Source Computer vision library (OpenCV). Identified elements will each have a corresponding code in the backend. Once the elements on the wireframe are identified, the corresponding code is written into an HTML file. The user gets the HTML file as an output. The creation of the boilerplate code for a website becomes much less time-consuming, which gives developers the freedom to test out many different designs and layouts before opting for the one that best suits their need.
 
-
-# Faster Switch
-Aceess Frontend -> [STML-FRONTEND](https://github.com/TheLazy-Dev/STML-FRONTEND/)
+Read more about this over -> [Our Research Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3740413)
